@@ -1,0 +1,15 @@
+github.com/BurntSushi/toml v0.4.1 h1:GaI7EiDXDRfa8VshkTj7Fym7ha+y8/XxIgD2okUIjLw=
+github.com/BurntSushi/toml v0.4.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
+github.com/DomesticMoth/tb v0.0.0-20211211172154-0c2bafa34456 h1:Wrc8UJJCWzd9ZboBUWf5xaG89FbWMQsA4lUuIacLX2w=
+github.com/DomesticMoth/tb v0.0.0-20211211172154-0c2bafa34456/go.mod h1:8BBesj/T2qRZFtWntCXzpO8ZxXs2uJCif/iUo337Y5U=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/glycerine/pingbuf v0.0.0-20160214053018-2c2ac61c8e32 h1:uSUw3He5PVKfSMq9Rk/19mhRl5t5ylVPGiRyhe6N9vU=
+github.com/glycerine/pingbuf v0.0.0-20160214053018-2c2ac61c8e32/go.mod h1:wTGQq52gS0TZdP68S/yLOo/7r+6n1UyVpetG8tUOBIM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/sahmad98/go-ringbuffer v1.1.0 h1:y4/rnsKhsGtso3utxLCfra9xkBNyyMAEMaqypzwCOo0=
+github.com/sahmad98/go-ringbuffer v1.1.0/go.mod h1:STVufTVL8dK2ddSjVKQOGrJxTmtpJ+I44SteqZJ7WTw=
+github.com/sirupsen/logrus v1.8.1 h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE=
+github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
+github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
+golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 h1:YyJpGZS1sBuBCzLAR1VEpK193GlqGZbnPFnPV/5Rsb4=
+golang.org/x/sys v0.0.0-20191026070338-33540a1f6037/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
