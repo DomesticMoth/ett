@@ -19,12 +19,11 @@ package main
 import (
 	"io"
 	"net"
-	"flag"
 	"net/url"
 	"math/rand"
 	"encoding/binary"
 	"encoding/base64"
-	"github.com/BurntSushi/toml"
+	"github.com/DomesticMoth/confer"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -302,13 +301,9 @@ type Config struct {
 }
 
 func main() {
-	// Read args
-	filename := flag.String("conf", "~/.config/ett/ett.toml", "Path to config file")
-	exitOnFirst := flag.Bool("first", false, "Stop the whole process if at least one server stops")
-	flag.Parse()
 	// Read config
 	var conf Config
-	_, err := toml.DecodeFile(*filename, &conf)
+	err := confer.LoadConfig([]string{"/etc/ett.toml"}, &conf)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -369,6 +364,5 @@ func main() {
 	// Waiting for other threads to stop
 	for _, _ = range conf.Tunnels {
 		<- stCh
-		if *exitOnFirst{ break }
 	}
 }

@@ -1,10 +1,16 @@
 github.com/BurntSushi/toml v0.4.1 h1:GaI7EiDXDRfa8VshkTj7Fym7ha+y8/XxIgD2okUIjLw=
 github.com/BurntSushi/toml v0.4.1/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
+github.com/BurntSushi/toml v1.0.0 h1:dtDWrepsVPfW9H/4y7dDgFc2MBUSeJhlaDtK13CxFlU=
+github.com/BurntSushi/toml v1.0.0/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
+github.com/DomesticMoth/confer v0.0.0-20220114204522-67a669dc3dc3 h1:a2UXjYYofxyPBblKfSIF956+prds8MCXPAyE7obkF00=
+github.com/DomesticMoth/confer v0.0.0-20220114204522-67a669dc3dc3/go.mod h1:arFrv5BmRovw3qPuFyIhmozY7LP8lIujigEsS5b/OFE=
 github.com/DomesticMoth/tb v0.0.0-20211211172154-0c2bafa34456 h1:Wrc8UJJCWzd9ZboBUWf5xaG89FbWMQsA4lUuIacLX2w=
 github.com/DomesticMoth/tb v0.0.0-20211211172154-0c2bafa34456/go.mod h1:8BBesj/T2qRZFtWntCXzpO8ZxXs2uJCif/iUo337Y5U=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/glycerine/pingbuf v0.0.0-20160214053018-2c2ac61c8e32 h1:uSUw3He5PVKfSMq9Rk/19mhRl5t5ylVPGiRyhe6N9vU=
 github.com/glycerine/pingbuf v0.0.0-20160214053018-2c2ac61c8e32/go.mod h1:wTGQq52gS0TZdP68S/yLOo/7r+6n1UyVpetG8tUOBIM=
+github.com/mitchellh/go-homedir v1.1.0 h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y=
+github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sahmad98/go-ringbuffer v1.1.0 h1:y4/rnsKhsGtso3utxLCfra9xkBNyyMAEMaqypzwCOo0=
 github.com/sahmad98/go-ringbuffer v1.1.0/go.mod h1:STVufTVL8dK2ddSjVKQOGrJxTmtpJ+I44SteqZJ7WTw=
