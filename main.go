@@ -274,7 +274,7 @@ func listenNonEncrypted(source, destination Addr, buf_size uint16, seed *int64, 
 			return
 		}
 		// Write log message
-		log.Info("New connection to "+source.network+"://"+source.addr)
+		log.Debug("New connection to "+source.network+"://"+source.addr)
 		// Send connection to accept handler
 		go acceptNonEncrypted(conn, destination, buf_size, seed)
 	}
