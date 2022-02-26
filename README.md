@@ -1,7 +1,7 @@
 # Ett
 Encrypted Tcp Tunnel  
 
-This project provides a simple implementation of a TCP tunnel encrypted via GCM EAS.  
+This project provides a simple implementation of a TCP tunnel encrypted via GCM AES.  
 Ett presented as a single binary application that can run multiple input and output tunnel nodes in a single process.  
 
 ## Usage
